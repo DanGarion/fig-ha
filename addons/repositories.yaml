@@ -1,0 +1,56 @@
+AlexxIT addons repository:
+  maintainer: '@AlexxIT'
+  slug: a889bffc
+  source: https://github.com/AlexxIT/hassio-addons
+Davide's Home Assistant Add-Ons:
+  maintainer: Davide Cavalca <davide@cavalca.name>
+  slug: b0cbb969
+  source: https://github.com/davide125/hassio-addons
+ESPHome:
+  maintainer: ESPHome <esphome@nabucasa.com>
+  slug: 5c53de3b
+  source: https://github.com/esphome/home-assistant-addon
+Frigate hass.io addons:
+  maintainer: blakeblackshear
+  slug: ccab4aaf
+  source: https://github.com/blakeblackshear/frigate-hass-addons
+Govee to MQTT Bridge:
+  maintainer: Wez Furlong <govee2mqtt@wez.wezfurlong.org>
+  slug: b9845f46
+  source: https://github.com/wez/govee2mqtt
+HA Add-ons by alexbelgium:
+  maintainer: alexbelgium
+  slug: db21ed7f
+  source: https://github.com/alexbelgium/hassio-addons
+HACS Add-ons Repository:
+  maintainer: HACS <hi@hacs.xyz>
+  slug: cb646a50
+  source: https://github.com/hacs/addons
+'Home Assistant Add-on: Zigbee2MQTT':
+  maintainer: Koen Kanters <koenkanters94@gmail.com>
+  slug: 45df7312
+  source: https://github.com/zigbee2mqtt/hassio-zigbee2mqtt
+Home Assistant Community Add-ons:
+  maintainer: Franck Nijhof <frenck@addons.community>
+  slug: a0d7b954
+  source: https://github.com/hassio-addons/repository
+Home Assistant Google Drive Backup Repository:
+  maintainer: Stephen Beechen <stephen@beechens.com>
+  slug: cebe7a76
+  source: https://github.com/sabeechen/hassio-google-drive-backup
+Jehy's Home Assistant add-on repository:
+  maintainer: Jehy <fate@jehy.ru>
+  slug: 8bce8ef4
+  source: https://github.com/jehy/hass-addons
+LMS formerly the Logitech Media Server Add on:
+  maintainer: Phillip Camp
+  slug: c9eebb65
+  source: http://github.com/pssc/ha-addon-lms
+Music Assistant:
+  maintainer: Music Assistant <marcelveldt@users.noreply.github.com>
+  slug: d5369777
+  source: https://github.com/music-assistant/home-assistant-addon
+Poeschl Home Assistant Add-ons:
+  maintainer: Poeschl <Poeschl@users.noreply.github.com>
+  slug: 68413af6
+  source: https://github.com/Poeschl-HomeAssistant-Addons/repository

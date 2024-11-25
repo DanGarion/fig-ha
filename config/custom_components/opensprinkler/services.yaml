@@ -1,0 +1,122 @@
+run:
+  target:
+    entity:
+      device_class: 
+        - controller
+        - program
+        - station
+    device:
+  fields:
+    run_seconds:
+      example: 60
+      selector:
+        number:
+          min: 0
+          max: 64800
+          mode: slider
+          unit_of_measurement: "s"
+    continue_running_stations:
+      example: False
+      selector:
+        boolean:
+
+run_once:
+  target:
+    entity:
+      device_class:
+        - controller
+    device:
+  fields:
+    run_seconds:
+      example: "0: 60"
+      selector:
+        object:
+    continue_running_stations:
+      example: False
+      selector:
+        boolean:
+
+run_program:
+  target:
+    entity:
+      device_class:
+        - program
+    device:
+
+run_station:
+  target:
+    entity:
+      device_class:
+        - station
+    device:
+  fields:
+    run_seconds:
+      example: 60
+      selector:
+        number:
+          min: 0
+          max: 64800
+          mode: slider
+          unit_of_measurement: "s"
+
+stop:
+  target:
+    entity:
+      device_class: 
+        - controller
+        - station
+    device:
+
+set_water_level:
+  target:
+    entity:
+      device_class: controller
+    device:
+  fields:
+    water_level:
+      example: 100
+      required: true
+      selector:
+        number:
+          min: 0
+          max: 250
+          mode: slider
+          unit_of_measurement: "%"
+
+set_rain_delay:
+  target:
+    entity:
+      device_class: controller
+    device:
+  fields:
+    rain_delay:
+      example: 24
+      required: true
+      selector:
+        number:
+          min: 0
+          max: 32767
+          mode: slider
+          unit_of_measurement: "h"
+
+pause_stations:
+  target:
+    entity:
+      device_class: controller
+    device:
+  fields:
+    pause_duration:
+      example: 600
+      required: true
+      selector:
+        number:
+          min: 0
+          max: 86400
+          mode: slider
+          unit_of_measurement: "s"
+
+reboot:
+  target:
+    entity:
+      device_class: controller
+    device:
